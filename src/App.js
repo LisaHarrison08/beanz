@@ -1,8 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer'
+import About from './components/About'
+import React from 'react';
 
-function App() {
-  return <div className="App"></div>;
+
+const App = () => {
+  
+  return (
+    <React.Fragment>
+      < About />
+      < Footer />
+    </React.Fragment>
+  );
 }
 
 export default App;
