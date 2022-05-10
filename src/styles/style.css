@@ -6,6 +6,8 @@
 }
 
 .primary-container .custom-nav {
+  z-index: 2;
+  width: 100%;
   font-family: 'Indie Flower', cursive;
   font-size: 1.5rem;
   color: #fff;
@@ -20,6 +22,15 @@
 
 .primary-container .custom-nav .nav-link {
   color: #fff;
+}
+
+.primary-container .custom-jumbotron {
+  z-index: 1;
+}
+
+.primary-container .custom-jumbotron .custom-banner {
+  width: 100%;
+  height: 50%;
 }
 
 /* About Section */
