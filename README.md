@@ -13,6 +13,9 @@ https://docs.google.com/document/d/1sUwBE89XPz7e5mv-nv3NwMNBKM5W3darBaXB7U5DcrQ/
   - Added Routes in the Main component and linked to components
   - Added Navigation & Footer components into Home component
   - Switched style to style.scss and copied style from previously used style to the scss file.
+  - Working on navigation-kurt branch
+  - Created reusable components: ImageCard & TextCard
+  - Added filler content to Home component
 
 ## Rules for Branches
 
