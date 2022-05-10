@@ -1,5 +1,63 @@
-$colorOne: #8ecae6;
-$colorTwo: #219ebc;
-$colorThree: #023047;
-$colorFour: #ffb703;
-$colorFive: #fb8500;
+$lightCornFlowerBlue: #8ecae6;
+$blueGreen: #219ebc;
+$prussianBlue: #023047;
+$selectiveYellow: #ffb703;
+$tangerine: #fb8500;
+$blue-ncs: hsla(195, 83%, 38%, 0.3);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shizuru&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.primary-container {
+  margin: 0;
+  padding: 0;
+
+  .custom-nav {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0;
+    background-color: $blue-ncs;
+
+    .nav-logo {
+      width: 4rem;
+      margin-left: 0;
+    }
+
+    .nav-link {
+      color: #fff;
+    }
+  }
+}
+
+/* About Section */
+
+#about {
+  display: flex;
+  flex-direction: row;
+  background: #023047;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+#about .about-us {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+/* Footer Section */
+.site-footer {
+  /* background-color: rgb(233, 223, 223); */
+  background-color: black;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.icon-link {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #ffb703;
+}
