@@ -12,32 +12,69 @@ $blue-ncs: hsla(195, 83%, 38%, 0.3);
   margin: 0;
   padding: 0;
 
-  .custom-nav {
+  .nav-banner-row {
     // position: absolute;
-    z-index: 2;
-    width: 100%;
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.5rem;
-    color: #fff;
-    padding: 0;
-    background-color: $blue-ncs;
+    .custom-nav {
+      // position: absolute;
+      z-index: 2;
+      width: 100%;
+      font-family: 'Indie Flower', cursive;
+      font-size: 1.5rem;
+      padding: 0;
+      background-color: $blue-ncs;
 
-    .nav-logo {
-      width: 4rem;
-      margin-left: 0;
+      .nav-logo {
+        width: 4rem;
+        margin-left: 0;
+      }
+
+      .nav-link {
+        color: $tangerine;
+      }
     }
 
-    .nav-link {
-      color: #fff;
+    .custom-jumbotron {
+      z-index: 1;
+
+      .custom-banner {
+        // position: absolute;
+        width: 100%;
+      }
     }
   }
 
-  .custom-jumbotron {
-    z-index: 1;
-    .custom-banner {
-      // position: absolute;
-      width: 100%;
-      height: 50%;
+  .content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    .text-col {
+      font-family: 'Indie Flower', cursive;
+    }
+
+    .img-col {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  /* Footer Section */
+  .site-footer {
+    /* background-color: rgb(233, 223, 223); */
+    background-color: black;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    .icon-link {
+      padding: 20px;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      color: $selectiveYellow;
     }
   }
 }
@@ -56,20 +93,4 @@ $blue-ncs: hsla(195, 83%, 38%, 0.3);
 #about .about-us {
   margin-top: 40px;
   margin-left: 20px;
-}
-
-/* Footer Section */
-.site-footer {
-  /* background-color: rgb(233, 223, 223); */
-  background-color: black;
-  margin: 0;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.icon-link {
-  padding: 20px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  color: #ffb703;
 }
