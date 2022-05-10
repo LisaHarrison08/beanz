@@ -1,16 +1,14 @@
-import './App.css';
-import Footer from './components/Footer'
-import About from './components/About'
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import Main from './components/Main';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/style.css';
 
-
-const App = () => {
-  
+function App() {
   return (
-    <React.Fragment>
-      < About />
-      < Footer />
-    </React.Fragment>
+    <BrowserRouter>
+      <Main />
+    </BrowserRouter>
   );
 }
 

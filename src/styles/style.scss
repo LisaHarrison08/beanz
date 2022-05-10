@@ -1,0 +1,37 @@
+$colorOne: #8ecae6;
+$colorTwo: #219ebc;
+$colorThree: #023047;
+$colorFour: #ffb703;
+$colorFive: #fb8500;
+
+/* About Section */
+
+#about {
+  display: flex;
+  flex-direction: row;
+  background: #023047;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+
+#about .about-us {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+/* Footer Section */
+.site-footer {
+  /* background-color: rgb(233, 223, 223); */
+  background-color: black;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.icon-link {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #ffb703;
+}
