@@ -65,7 +65,7 @@
 
 .primary-container .site-footer {
   /* background-color: rgb(233, 223, 223); */
-  background-color: black;
+  background-color: #ffb703;
   margin: 0;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -75,7 +75,7 @@
   padding: 20px;
   padding-top: 40px;
   padding-bottom: 20px;
-  color: #ffb703;
+  color: #023047;
 }
 
 .primary-container .about-row {
@@ -93,11 +93,23 @@
   display: -ms-flexbox;
   display: flex;
   justify-self: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .primary-container .about-row .about-col img {
   display: block;
   margin: auto;
+}
+
+.primary-container .secondary-footer {
+  background-color: #023047;
+  padding-top: 20px;
+  margin: 0;
+  color: antiquewhite;
+}
+
+.primary-container .project-link {
+  color: antiquewhite;
+  padding-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
