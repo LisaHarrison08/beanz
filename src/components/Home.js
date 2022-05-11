@@ -1,7 +1,13 @@
 import React from 'react';
+
+
+import About from './About';
+import PageFooter from './PageFooter';
+
 import NavContainer from './NavContainer';
 import TextCard from './TextCard';
 import ImageCard from './ImageCard';
+
 import Footer from './Footer';
 import coffeeCup from '../assets/coffee-cup.jpg';
 import baristaImg from '../assets/barista.jpg';
@@ -9,6 +15,10 @@ import baristaImg from '../assets/barista.jpg';
 function Home() {
   return (
     <div className="container-fluid primary-container">
+      <Navigation />
+      <main>Main content goes here. We'll add reusable components.</main>
+     
+
       <div className="row nav-banner-row">
         <NavContainer />
       </div>
@@ -24,8 +34,12 @@ function Home() {
         />
       </div>
       <div className="row footer-row">
+         <About />
+      <Footer />
+      <PageFooter />
         <Footer />
       </div>
+
     </div>
   );
 }

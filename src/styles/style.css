@@ -78,6 +78,19 @@
   color: #ffb703;
 }
 
+
+
+.secondary-footer{
+  background-color: #023047;
+  padding-top:20px;
+  margin:0;
+  color:antiquewhite;
+}
+
+.project-link{
+  color:antiquewhite;
+  padding-right: 20px;
+}
 /* About Section */
 #about {
   display: -webkit-box;
@@ -97,4 +110,5 @@
   margin-top: 40px;
   margin-left: 20px;
 }
+
 /*# sourceMappingURL=style.css.map */
