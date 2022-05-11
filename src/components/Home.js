@@ -1,13 +1,9 @@
 import React from 'react';
-
-
 import About from './About';
 import PageFooter from './PageFooter';
-
 import NavContainer from './NavContainer';
 import TextCard from './TextCard';
 import ImageCard from './ImageCard';
-
 import Footer from './Footer';
 import coffeeCup from '../assets/coffee-cup.jpg';
 import baristaImg from '../assets/barista.jpg';
@@ -15,13 +11,7 @@ import baristaImg from '../assets/barista.jpg';
 function Home() {
   return (
     <div className="container-fluid primary-container">
-      <Navigation />
-      <main>Main content goes here. We'll add reusable components.</main>
-     
-
-      <div className="row nav-banner-row">
-        <NavContainer />
-      </div>
+      <NavContainer />
       <div className="row content-row">
         <TextCard title="Text Card" text="I'm a text card placeholder" />
         <ImageCard img={coffeeCup} />
@@ -33,13 +23,11 @@ function Home() {
           text="Just holding down the fort"
         />
       </div>
+      <About />
       <div className="row footer-row">
-         <About />
-      <Footer />
-      <PageFooter />
         <Footer />
+        <PageFooter />
       </div>
-
     </div>
   );
 }

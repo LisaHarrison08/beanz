@@ -77,20 +77,23 @@ $blue-ncs: hsla(195, 83%, 38%, 0.3);
       color: $selectiveYellow;
     }
   }
-}
 
-/* About Section */
+  .about-row {
+    display: flex;
+    justify-content: center;
+    background: #023047;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
 
-#about {
-  display: flex;
-  flex-direction: row;
-  background: #023047;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 100%;
-}
+    .about-col {
+      display: flex;
+      justify-self: center;
+      padding: 1rem;
 
-#about .about-us {
-  margin-top: 40px;
-  margin-left: 20px;
+      img {
+        display: block;
+        margin: auto;
+      }
+    }
+  }
 }
