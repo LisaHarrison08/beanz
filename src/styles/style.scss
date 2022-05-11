@@ -5,6 +5,7 @@ $selectiveYellow: #ffb703;
 $tangerine: #fb8500;
 $blue-ncs: hsla(195, 83%, 38%, 0.3);
 $footer: #000;
+$text-footer:antiquewhite;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shizuru&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
@@ -65,26 +66,23 @@ $footer: #000;
 
   /* Footer Section */
   .site-footer {
-    /* background-color: rgb(233, 223, 223); */
     background-color: $selectiveYellow;
     margin: 0;
     padding-bottom: 20px;
     padding-top: 20px;
+    color:$prussianBlue;
+  }
 
-    .icon-link {
-      padding: 20px;
-      padding-top: 40px;
-      padding-bottom: 20px;
-      color: $prussianBlue;
-    }
+  .icon-link {
+    // padding-top: 160px;
+    padding-bottom: 20px;
+    color: $prussianBlue;
   }
 
   .about-row {
     display: flex;
     justify-content: center;
     background: #023047;
-    // padding-top: 60px;
-    // padding-bottom: 60px;
 
     .about-col {
       display: flex;
@@ -99,14 +97,14 @@ $footer: #000;
   }
 
   .secondary-footer{
-    background-color: #023047;
+    background-color: $prussianBlue;
     padding-top:20px;
     margin:0;
-    color:antiquewhite;
+    color:$text-footer;
   }
   
   .project-link{
-    color:antiquewhite;
+    color:$text-footer;
     padding-right: 20px;
   }
 }
