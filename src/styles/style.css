@@ -3,25 +3,94 @@
 .primary-container {
   margin: 0;
   padding: 0;
+  /* Footer Section */
 }
 
-.primary-container .custom-nav {
+.primary-container .nav-banner-row .custom-nav {
+  z-index: 2;
+  width: 100%;
   font-family: 'Indie Flower', cursive;
   font-size: 1.5rem;
-  color: #fff;
   padding: 0;
   background-color: rgba(16, 137, 177, 0.3);
 }
 
-.primary-container .custom-nav .nav-logo {
+.primary-container .nav-banner-row .custom-nav .nav-logo {
   width: 4rem;
   margin-left: 0;
 }
 
-.primary-container .custom-nav .nav-link {
-  color: #fff;
+.primary-container .nav-banner-row .custom-nav .nav-link {
+  color: #fb8500;
 }
 
+.primary-container .nav-banner-row .custom-jumbotron {
+  z-index: 1;
+}
+
+.primary-container .nav-banner-row .custom-jumbotron .custom-banner {
+  width: 100%;
+}
+
+.primary-container .content-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.primary-container .content-row .text-col {
+  font-family: 'Indie Flower', cursive;
+}
+
+.primary-container .content-row .img-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.primary-container .content-row .img-col img {
+  width: 100%;
+}
+
+.primary-container .site-footer {
+  /* background-color: rgb(233, 223, 223); */
+  background-color: black;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.primary-container .site-footer .icon-link {
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #ffb703;
+}
+
+
+
+.secondary-footer{
+  background-color: #023047;
+  padding-top:20px;
+  margin:0;
+  color:antiquewhite;
+}
+
+.project-link{
+  color:antiquewhite;
+  padding-right: 20px;
+}
 /* About Section */
 #about {
   display: -webkit-box;
@@ -40,36 +109,6 @@
 #about .about-us {
   margin-top: 40px;
   margin-left: 20px;
-}
-
-/* Footer Section */
-.site-footer {
-  /* background-color: rgb(233, 223, 223); */
-  background-color: black;
-  margin: 0;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.icon-link {
-  padding: 20px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  color: #ffb703;
-}
-
- /* Page Footer */ 
-
-.secondary-footer{
-  background-color: #023047;
-  padding-top:20px;
-  margin:0;
-  color:antiquewhite;
-}
-
-.project-link{
-  color:antiquewhite;
-  padding-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
