@@ -31,6 +31,8 @@ https://docs.google.com/document/d/1sUwBE89XPz7e5mv-nv3NwMNBKM5W3darBaXB7U5DcrQ/
 
 ## Git Commands:
 
+- git fetch --> tells local git to retrieve lastest meta-data info from the original (doesn't do any file transferring, just checks to see if any changes available)
+- git pull --> pulls the latest changes from the remote repo
 - git add -A —> Add all to staging area
 - git commit -m “comment” —> Commit
 - git push origin master —> Push changes to remote repository
