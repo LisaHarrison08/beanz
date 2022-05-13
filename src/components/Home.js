@@ -7,8 +7,10 @@ import Header from './Header2'
 import TextCard from './TextCard';
 import ImageCard from './ImageCard';
 import Footer from './Footer';
-import coffeeCup from '../assets/coffee-cup.jpg';
-import baristaImg from '../assets/barista.jpg';
+import coffeeCup from '../assets/coffee-cup3.jpg';
+import baristaImg from '../assets/barista3.jpg';
+
+// resized images to 400 x 300
 
 function Home() {
   return (
