@@ -47,11 +47,16 @@
 }
 
 .primary-container .nav-link {
+  padding-top: 20px;
   color: white;
 }
 
 .primary-container .nav-link:hover {
   color: #ffb703;
+}
+
+.primary-container .nav-logo {
+  margin-left: 20px;
 }
 
 .primary-container header {

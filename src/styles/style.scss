@@ -71,12 +71,15 @@ $text-footer: antiquewhite;
 		letter-spacing: 2px;
 	}
 	.nav-link{
+		padding-top: 20px;;
 		color:white;
 	}
 	.nav-link:hover{
 		color:$selectiveYellow;
 	}
-
+	.nav-logo{
+		margin-left: 20px;;
+	}
 	/* Banner Option 2 */
 
 	header {
