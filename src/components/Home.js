@@ -1,7 +1,9 @@
 import React from 'react';
 import About from './About';
 import PageFooter from './PageFooter';
-import NavContainer from './NavContainer';
+// import NavContainer from './NavContainer';
+import Nav from './Navigation2';
+import Header from './Header2'
 import TextCard from './TextCard';
 import ImageCard from './ImageCard';
 import Footer from './Footer';
@@ -11,7 +13,9 @@ import baristaImg from '../assets/barista.jpg';
 function Home() {
   return (
     <div className="container-fluid primary-container">
-      <NavContainer />
+      < Nav />
+      < Header />
+      {/* <NavContainer /> */}
       <div className="row content-row">
         <TextCard title="Text Card" text="I'm a text card placeholder" />
         <ImageCard img={coffeeCup} />
