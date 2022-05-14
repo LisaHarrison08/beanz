@@ -10,7 +10,7 @@ function Navigation() {
                 <Navbar.Brand href="/">
                     <img src={logo} className="nav-logo" alt="logo" />
                 </Navbar.Brand>
-                <Nav.Link href="/home" className="nav-link">Home</Nav.Link>
+                <Nav.Link href="/" className="nav-link">Home</Nav.Link>
                 <Nav.Link href="/about" className="nav-link">About</Nav.Link>
                 <Nav.Link href="/menu" className="nav-link">Menu</Nav.Link>
             </Navbar>
