@@ -7,6 +7,7 @@ https://docs.google.com/document/d/1sUwBE89XPz7e5mv-nv3NwMNBKM5W3darBaXB7U5DcrQ/
 ## Update Notes
 
 - 5/10/22: Kurt
+
   - Updated main branch. Going forward all updates will be to dev branch.
   - Main branch will be updated once the project is complete.
   - Added BrowserRouter to App.js for navigation purposes
@@ -16,6 +17,16 @@ https://docs.google.com/document/d/1sUwBE89XPz7e5mv-nv3NwMNBKM5W3darBaXB7U5DcrQ/
   - Working on navigation-kurt branch
   - Created reusable components: ImageCard & TextCard
   - Added filler content to Home component
+
+  5/14/22: Kurt
+
+  - Added new branch: aboutPageAndMenuPage (forgot to put -kurt in the branch name)
+  - Added Redux to the project
+  - Created Redux store, actions, and reducers
+  - Created product data for the menu page
+  - Created reusable MenuCard component for the Menu page
+  - Added products to the Menu page
+  - Added some simple style to Menu page
 
 ## Rules for Branches
 
