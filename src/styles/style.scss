@@ -12,162 +12,171 @@ $text-footer: antiquewhite;
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 
 .primary-container {
-	margin: 0;
-	padding: 0;
-	background-image:url('../assets/marble.jpg');
-	// .nav-banner-row {
-	// 	position: absolute;
-	// 	.custom-nav {
-	// 		position: absolute;
-	// 		z-index: 2;
-	// 		width: 100%;
-	// 		font-family: 'Indie Flower', cursive;
-	// 		font-size: 1.5rem;
-	// 		padding: 0;
-	// 		background-color: $blue-ncs;
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/marble.jpg');
+  // .nav-banner-row {
+  // 	position: absolute;
+  // 	.custom-nav {
+  // 		position: absolute;
+  // 		z-index: 2;
+  // 		width: 100%;
+  // 		font-family: 'Indie Flower', cursive;
+  // 		font-size: 1.5rem;
+  // 		padding: 0;
+  // 		background-color: $blue-ncs;
 
-	// 		.nav-logo {
-	// 			width: 4rem;
-	// 			margin-left: 0;
-	// 		}
+  // 		.nav-logo {
+  // 			width: 4rem;
+  // 			margin-left: 0;
+  // 		}
 
-	// 		.nav-link {
-	// 			color: $tangerine;
-	// 		}
-	// 	}
+  // 		.nav-link {
+  // 			color: $tangerine;
+  // 		}
+  // 	}
 
-	// 	.custom-jumbotron {
-	// 		z-index: 1;
+  // 	.custom-jumbotron {
+  // 		z-index: 1;
 
-	// 		.custom-banner {
-	// 			position: absolute;
-	// 			width: 100%;
-	// 		}
-	// 	}
-	// }
+  // 		.custom-banner {
+  // 			position: absolute;
+  // 			width: 100%;
+  // 		}
+  // 	}
+  // }
 
-	.content-row {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin: 1rem;
-		padding: 0.5rem;
-		.text-col {
-			font-family: 'Indie Flower', cursive;
-		}
+  .content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    .text-col {
+      font-family: 'Indie Flower', cursive;
+    }
 
-		.img-col {
-			display: flex;
-			justify-content: center;
-			img {
-				width: 100%;
-			}
-		}
-	}
+    .img-col {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
 
-		/* Nav Option 2 */
-	.nav2{
-		background-color: $blueGreen;
-		letter-spacing: 2px;
-	}
-	.nav-link{
-		padding-top: 20px;;
-		color:white;
-	}
-	.nav-link:hover{
-		color:$selectiveYellow;
-	}
-	.nav-logo{
-		margin-left: 20px;;
-	}
-	/* Banner Option 2 */
+  /* Nav Option 2 */
+  .nav2 {
+    background-color: $blueGreen;
+    letter-spacing: 2px;
+  }
+  .nav-link {
+    padding-top: 20px;
+    color: white;
+  }
+  .nav-link:hover {
+    color: $selectiveYellow;
+  }
+  .nav-logo {
+    margin-left: 20px;
+  }
+  /* Banner Option 2 */
 
-	header {
-		text-align: center;
-		overflow: hidden;
+  header {
+    text-align: center;
+    overflow: hidden;
 
-		.banner-text h1 {
-			position: absolute;
-			top: 20%;
-			left: 40%;
-			transform: translate(-50%, -50%);
-			font: 6em "Zen Loop", cursive;
-			font-weight: 600;
-			color: white;
-			letter-spacing: 0.1em;
-			text-transform: none;
-		}
-		img {
-			position: relative;
-			display: block;
-			width: 100%;
-			height: 300px;
-			margin: 0 !important;
-			padding: 0 !important;
-			object-fit: cover;
-		}
-	}
+    .banner-text h1 {
+      position: absolute;
+      top: 20%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      font: 6em 'Zen Loop', cursive;
+      font-weight: 600;
+      color: white;
+      letter-spacing: 0.1em;
+      text-transform: none;
+    }
+    img {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 300px;
+      margin: 0 !important;
+      padding: 0 !important;
+      object-fit: cover;
+    }
+  }
 
-	/* About Section */
-	.about-section {
-		background-color: $prussianBlue;
+  /* About Section */
+  .about-section {
+    background-color: $prussianBlue;
 
-		.about-image {
-			margin-top: 40px;
-			margin-left: 100px;
-			padding: 20px;
-			height: 90%;
-			width: auto;
-		}
-		.about-text {
-			font-family: 'Zen Loop', cursive;
-			color: white;
-			text-align: center;
-			padding-right: 100px;
-		}
-		h2 {
-			color: $selectiveYellow;
-			font-size: 2.4em;
-			margin-top: 40px;
-			margin-bottom: 40px;
-			letter-spacing: 0.1em;
-		}
-		p {
-			font-size: 1.2em;
-			margin: 20px;
-			line-height: 2;
-			letter-spacing: 0.2em;
-		}
-	}
+    .about-image {
+      margin-top: 40px;
+      margin-left: 100px;
+      padding: 20px;
+      height: 90%;
+      width: auto;
+    }
+    .about-text {
+      font-family: 'Zen Loop', cursive;
+      color: white;
+      text-align: center;
+      padding-right: 100px;
+    }
+    h2 {
+      color: $selectiveYellow;
+      font-size: 2.4em;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      letter-spacing: 0.1em;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 20px;
+      line-height: 2;
+      letter-spacing: 0.2em;
+    }
+  }
 
-	/* Footer Section */
-	.site-footer {
-		background-color: $selectiveYellow;
-		margin: 0;
-		padding-bottom: 20px;
-		padding-top: 20px;
+  /* Footer Section */
+  .site-footer {
+    background-color: $selectiveYellow;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
-		h5,
-		p {
-			color: $prussianBlue;
-		}
+    h5,
+    p {
+      color: $prussianBlue;
+    }
 
-		.icon-link {
-			padding: 10px;
-			padding-bottom: 20px;
-			color: $prussianBlue;
-		}
-	}
+    .icon-link {
+      padding: 10px;
+      padding-bottom: 20px;
+      color: $prussianBlue;
+    }
+  }
 
-	.secondary-footer {
-		background-color: $prussianBlue;
-		padding-top: 20px;
-		margin: 0;
-		color: $text-footer;
-	}
+  .secondary-footer {
+    background-color: $prussianBlue;
+    padding-top: 20px;
+    margin: 0;
+    color: $text-footer;
+  }
 
-	.project-link {
-		color: $text-footer;
-		padding-right: 20px;
-	}
+  .project-link {
+    color: $text-footer;
+    padding-right: 20px;
+  }
+}
+
+// MENU PAGE
+.menu-container {
+  display: flex;
+  .menu-row {
+    position: relative;
+    margin-top: 6rem;
+  }
 }
