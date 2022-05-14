@@ -1,8 +1,5 @@
 import React from "react"
 import Fade from "react-reveal";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row } from "react-bootstrap"
 import coffeeBarBanner from '../assets/coffee-bar-banner.jpg';
 
