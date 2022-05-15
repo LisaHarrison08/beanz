@@ -8,6 +8,7 @@ const Header = () => {
     return (
         <header id="home">
             <Container fluid>
+            <div className="overlay"></div>
                 <Row>
                     <img
                         src={coffeeBarBanner}
