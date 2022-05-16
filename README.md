@@ -20,13 +20,13 @@ https://docs.google.com/document/d/1sUwBE89XPz7e5mv-nv3NwMNBKM5W3darBaXB7U5DcrQ/
 
   5/14/22: Kurt
 
-  - Added new branch: aboutPageAndMenuPage (forgot to put -kurt in the branch name)
-  - Added Redux to the project
-  - Created Redux store, actions, and reducers
-  - Created product data for the menu page
-  - Created reusable MenuCard component for the Menu page
-  - Added products to the Menu page
-  - Added some simple style to Menu page
+- Added new branch: aboutPageAndMenuPage (forgot to put -kurt in the branch name)
+- Added Redux to the project
+- Created Redux store, actions, and reducers
+- Created product data for the menu page
+- Created reusable MenuCard component for the Menu page
+- Added products to the Menu page
+- Added some simple style to Menu page
 
 ## Rules for Branches
 
