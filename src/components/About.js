@@ -7,7 +7,6 @@ import { Col, Row } from 'react-bootstrap';
 const About = () => {
   return (
     <>
-      {/* <Navigation /> */}
       <div className="about-section">
         <Fade bottom duration={3000} distance="100px">
           <Row>

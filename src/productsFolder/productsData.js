@@ -21,7 +21,7 @@ export const productsData = [
     id: 4,
     name: 'Latte',
     price: 3.75,
-    descripton: 'Espresso with steamed milk.',
+    description: 'Espresso with steamed milk.',
   },
   {
     id: 5,
