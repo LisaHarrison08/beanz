@@ -28,6 +28,14 @@ https://docs.google.com/document/d/1sUwBE89XPz7e5mv-nv3NwMNBKM5W3darBaXB7U5DcrQ/
 - Added products to the Menu page
 - Added some simple style to Menu page
 
+5/16/22: Kurt
+
+- Created new branch: homepage-style-kurt
+- Made the Nav menu transparent. Used same color, but switched to rgba.
+- Updated TextCard content on the Home page.
+- Created AboutPage component to house the About component on a separate page.
+- Created MenuPage component to house the Menu component on a separate page.
+
 ## Rules for Branches
 
 - Work off of the dev branch

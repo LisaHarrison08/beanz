@@ -1,5 +1,6 @@
 $lightCornFlowerBlue: #8ecae6;
 $blueGreen: #219ebc;
+$bannerBlueGreen: rgba(33, 158, 188, 0.7);
 $prussianBlue: #023047;
 $selectiveYellow: #ffb703;
 $tangerine: #fb8500;
@@ -67,7 +68,8 @@ $text-footer: antiquewhite;
 
   /* Nav Option 2 */
   .nav2 {
-    background-color: $blueGreen;
+    // background-color: $blueGreen;
+    background-color: $bannerBlueGreen;
     letter-spacing: 2px;
   }
   .nav-link {
@@ -80,6 +82,7 @@ $text-footer: antiquewhite;
   .nav-logo {
     margin-left: 20px;
   }
+
   /* Banner Option 2 */
   .overlay {
     background-color: rgba(0, 0, 0, 0.2);
@@ -91,6 +94,7 @@ $text-footer: antiquewhite;
     left: 0;
     right: 0;
   }
+
   header {
     text-align: center;
     overflow: hidden;
@@ -105,7 +109,7 @@ $text-footer: antiquewhite;
       color: white;
       letter-spacing: 0.1em;
       text-transform: none;
-      z-index:3;
+      z-index: 3;
     }
     img {
       position: relative;
@@ -182,6 +186,7 @@ $text-footer: antiquewhite;
     padding-right: 20px;
   }
 }
+// END PRIMARY CONTAINER
 
 // MENU PAGE
 .menu-container {
