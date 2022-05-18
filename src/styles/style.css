@@ -4,7 +4,6 @@
 .primary-container {
   margin: 0;
   padding: 0;
-  background-image: url("../assets/marble.jpg");
   /* Nav  */
   /* Banner Option 2 */
   /* Page Section */
@@ -107,7 +106,21 @@
      object-fit: cover;
 }
 
-.primary-container .card-title, .primary-container h5 {
+.primary-container .text-card {
+  border: 3px rgba(251, 133, 0, 0.3) solid;
+}
+
+.primary-container .menu-card {
+  padding: 1rem;
+}
+
+.primary-container .menu-card-body {
+  border: none;
+  border-bottom: solid 1px rgba(251, 133, 0, 0.3);
+}
+
+.primary-container .card-title,
+.primary-container h5 {
   font-family: 'Zen Loop', cursive;
 }
 

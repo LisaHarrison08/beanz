@@ -19,7 +19,7 @@ function Home() {
     <div className="container-fluid primary-container">
       <Nav />
       <Header />
-      {/* <NavContainer /> */}
+
       <Fade left duration={6000} distance="300px">
         <div className="row content-row">
           <TextCard
@@ -32,7 +32,8 @@ function Home() {
       <Fade right duration={6000} distance="300px">
         <div className="row content-row">
           <ImageCard img={baristaImg} />
-          <TextCard className="card-title"
+          <TextCard
+            className="card-title"
             title="Exceptional Service"
             text="Our coffee is just part of the story. We are committed to providing you with the best service in the city."
           />
@@ -40,7 +41,10 @@ function Home() {
       </Fade>
       <Fade left duration={6000} distance="300px">
         <div className="row content-row">
-          <TextCard title="The Beanz" text="We select the finest beanz to make the perfect brew." />
+          <TextCard
+            title="The Beanz"
+            text="We select the finest beanz to make the perfect brew."
+          />
           <ImageCard img={beans} />
         </div>
       </Fade>

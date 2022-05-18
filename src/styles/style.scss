@@ -4,6 +4,7 @@ $bannerBlueGreen: rgba(33, 158, 188, 0.7);
 $prussianBlue: #023047;
 $selectiveYellow: #ffb703;
 $tangerine: #fb8500;
+$opacityTangerine: rgba(251, 133, 0, 0.3);
 $blue-ncs: hsla(195, 83%, 38%, 0.3);
 $footer: #000;
 $text: white;
@@ -13,166 +14,181 @@ $text: white;
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 
 .primary-container {
-	margin: 0;
-	padding: 0;
-	background-image: url('../assets/marble.jpg');
+  margin: 0;
+  padding: 0;
+  // background-image: url('../assets/marble.jpg');
 
-	.content-row {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin: 1rem;
-		padding: 0.5rem;
-    font:1.2em 'Zen Loop', cursive;
-    font-weight:400;
+  .content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    font: 1.2em 'Zen Loop', cursive;
+    font-weight: 400;
     letter-spacing: 0.1em;
 
-    .card-title{
-      font:1.8em 'Zen Loop', cursive;
+    .card-title {
+      font: 1.8em 'Zen Loop', cursive;
       letter-spacing: 0.1em;
       font-weight: 900;
     }
-		.img-col {
-			display: flex;
-			justify-content: center;
-			img {
-				width: 100%;
-			}
-		}
-	}
+    .img-col {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
 
-	/* Nav  */
-	.nav2 {
-		// background-color: $blueGreen;
-		background-color: $bannerBlueGreen;
-		letter-spacing: 2px;
-	}
-	.nav-link {
-		padding-top: 20px;
-		color: $text;
-	}
-	.nav-link:hover {
-		color: $selectiveYellow;
-	}
-	.nav-logo {
-		margin-left: 20px;
-	}
+  /* Nav  */
+  .nav2 {
+    // background-color: $blueGreen;
+    background-color: $bannerBlueGreen;
+    letter-spacing: 2px;
+  }
+  .nav-link {
+    padding-top: 20px;
+    color: $text;
+  }
+  .nav-link:hover {
+    color: $selectiveYellow;
+  }
+  .nav-logo {
+    margin-left: 20px;
+  }
 
-	/* Banner Option 2 */
-	.overlay {
-		background-color: rgba(0, 0, 0, 0.2);
-		position: absolute;
-		z-index: 2;
-		height: 300px;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-	}
+  /* Banner Option 2 */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 2;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 
-	header {
-		text-align: center;
-		overflow: hidden;
+  header {
+    text-align: center;
+    overflow: hidden;
 
-		.banner-text h1 {
-			position: absolute;
-			top: 20%;
-			left: 40%;
-			transform: translate(-50%, -50%);
-			font: 6em 'Zen Loop', cursive;
-			font-weight: 600;
-			color: $text;
-			letter-spacing: 0.1em;
-			text-transform: none;
-			z-index: 3;
-		}
-		img {
-			position: relative;
-			display: block;
-			width: 100%;
-			height: 300px;
-			margin: 0 !important;
-			padding: 0 !important;
-			object-fit: cover;
-			// z-index:1;
-		}
-	}
-	/* Page Section */
+    .banner-text h1 {
+      position: absolute;
+      top: 20%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      font: 6em 'Zen Loop', cursive;
+      font-weight: 600;
+      color: $text;
+      letter-spacing: 0.1em;
+      text-transform: none;
+      z-index: 3;
+    }
+    img {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 300px;
+      margin: 0 !important;
+      padding: 0 !important;
+      object-fit: cover;
+      // z-index:1;
+    }
+  }
+  /* Page Section */
 
-	.card-title, h5 {
-		font-family: 'Zen Loop', cursive;
-	}
+  .text-card {
+    // background-color: $opacityTangerine;
+    border: 3px $opacityTangerine solid;
+  }
 
-	/* About Section */
-	.about-section {
-		background-color: $prussianBlue;
+  .menu-card {
+    padding: 1rem;
+  }
 
-		.about-image {
-			margin-top: 40px;
-			margin-left: 100px;
-			padding: 20px;
-			height: 90%;
-			width: auto;
-		}
-		.about-text {
-			font-family: 'Zen Loop', cursive;
-			color: $text;
-			text-align: center;
-			padding-right: 100px;
-		}
-		h2 {
-			color: $selectiveYellow;
-			font-size: 2.4em;
-			margin-top: 40px;
-			margin-bottom: 40px;
-			letter-spacing: 0.1em;
-		}
-		p {
-			font-size: 1.2em;
-			margin: 20px;
-			line-height: 2;
-			letter-spacing: 0.2em;
-		}
-	}
+  .menu-card-body {
+    border: none;
+    border-bottom: solid 1px $opacityTangerine;
+  }
 
-	/* Footer Section */
-	.site-footer {
-		background-color: $selectiveYellow;
-		margin: 0;
-		padding-bottom: 20px;
-		padding-top: 20px;
+  .card-title,
+  h5 {
+    font-family: 'Zen Loop', cursive;
+  }
 
-		h5,
-		p {
-			color: $prussianBlue;
-		}
+  /* About Section */
+  .about-section {
+    background-color: $prussianBlue;
 
-		.icon-link {
-			padding: 10px;
-			padding-bottom: 20px;
-			color: $prussianBlue;
-		}
-	}
+    .about-image {
+      margin-top: 40px;
+      margin-left: 100px;
+      padding: 20px;
+      height: 90%;
+      width: auto;
+    }
+    .about-text {
+      font-family: 'Zen Loop', cursive;
+      color: $text;
+      text-align: center;
+      padding-right: 100px;
+    }
+    h2 {
+      color: $selectiveYellow;
+      font-size: 2.4em;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      letter-spacing: 0.1em;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 20px;
+      line-height: 2;
+      letter-spacing: 0.2em;
+    }
+  }
 
-	.secondary-footer {
-		background-color: $prussianBlue;
-		padding-top: 20px;
-		margin: 0;
-		color: $text;
-	}
+  /* Footer Section */
+  .site-footer {
+    background-color: $selectiveYellow;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
 
-	.project-link {
-		color: $text;
-		padding-right: 20px;
-	}
+    h5,
+    p {
+      color: $prussianBlue;
+    }
+
+    .icon-link {
+      padding: 10px;
+      padding-bottom: 20px;
+      color: $prussianBlue;
+    }
+  }
+
+  .secondary-footer {
+    background-color: $prussianBlue;
+    padding-top: 20px;
+    margin: 0;
+    color: $text;
+  }
+
+  .project-link {
+    color: $text;
+    padding-right: 20px;
+  }
 }
 // END PRIMARY CONTAINER
 
 // MENU PAGE
 .menu-container {
-	display: flex;
-	.menu-row {
-		position: relative;
-		margin-top: 6rem;
-	}
+  display: flex;
+  .menu-row {
+    position: relative;
+    margin-top: 6rem;
+  }
 }

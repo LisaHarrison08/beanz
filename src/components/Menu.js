@@ -1,18 +1,17 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setProducts, setLoading } from '../redux/actions';
+import { setProducts } from '../redux/actions';
 import MenuCard from './/MenuCard';
 import { productsData } from '../productsFolder/productsData';
 
 function Menu() {
   const dispatch = useDispatch();
-  const { products, loading } = useSelector((state) => state.Reducer);
+  const { products } = useSelector((state) => state.Reducer);
 
   useEffect(() => {
     dispatch(setProducts(productsData));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  // console.log(products);
 
   return (
     <div className="row menu-row">
