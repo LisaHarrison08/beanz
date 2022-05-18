@@ -1,7 +1,7 @@
 # Beanz
 
 ## Project by: Lisa Harrison & Kurt Reynolds
-(images/image1.png)
+![landing page](images/image1.png)
 
 ## Update Notes
 
