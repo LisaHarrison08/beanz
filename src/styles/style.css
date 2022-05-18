@@ -5,8 +5,9 @@
   margin: 0;
   padding: 0;
   background-image: url("../assets/marble.jpg");
-  /* Nav Option 2 */
+  /* Nav  */
   /* Banner Option 2 */
+  /* Page Section */
   /* About Section */
   /* Footer Section */
 }
@@ -23,10 +24,15 @@
           align-items: center;
   margin: 1rem;
   padding: 0.5rem;
+  font: 1.2em 'Zen Loop', cursive;
+  font-weight: 400;
+  letter-spacing: 0.1em;
 }
 
-.primary-container .content-row .text-col {
-  font-family: 'Indie Flower', cursive;
+.primary-container .content-row .card-title {
+  font: 1.8em 'Zen Loop', cursive;
+  letter-spacing: 0.1em;
+  font-weight: 900;
 }
 
 .primary-container .content-row .img-col {
@@ -101,6 +107,10 @@
      object-fit: cover;
 }
 
+.primary-container .card-title, .primary-container h5 {
+  font-family: 'Zen Loop', cursive;
+}
+
 .primary-container .about-section {
   background-color: #023047;
 }
@@ -157,11 +167,11 @@
   background-color: #023047;
   padding-top: 20px;
   margin: 0;
-  color: antiquewhite;
+  color: white;
 }
 
 .primary-container .project-link {
-  color: antiquewhite;
+  color: white;
   padding-right: 20px;
 }
 

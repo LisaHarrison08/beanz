@@ -1,8 +1,7 @@
 # Beanz
 
 ## Project by: Lisa Harrison & Kurt Reynolds
-
-https://docs.google.com/document/d/1sUwBE89XPz7e5mv-nv3NwMNBKM5W3darBaXB7U5DcrQ/edit
+(images/image1.png)
 
 ## Update Notes
 
@@ -36,42 +35,17 @@ https://docs.google.com/document/d/1sUwBE89XPz7e5mv-nv3NwMNBKM5W3darBaXB7U5DcrQ/
 - Created AboutPage component to house the About component on a separate page.
 - Created MenuPage component to house the Menu component on a separate page.
 
-## Rules for Branches
+### Credits
 
-- Work off of the dev branch
-- Going forward, do a pull request to get the latest code from the dev branch
-- Once the latest code has been loaded onto the local machine, create a NEW branch for what will be worked on. For example: 'header-kurt'.
-- Commit that newly created branch to the repo
+All images, available for public use, were sourced from pexels.com. 
+This project does not claim any ownership or credit over the images.
+Images are available to download here:
 
-## Rules for Style
+https://images.pexels.com/photos/2067628/pexels-photo-2067628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 
-- add any style updates to the style.scss file
-- a SCSS preprocessor will be needed. One cane be found on the Extensions store, such as Live Sass Compiler.
+Photo by cottonbro:
+https://www.pexels.com/photo/person-holding-brown-beans-in-white-ceramic-bowl-4820813/
+https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-on-chair-4790059/
 
-## Git Commands:
-
-- git fetch --> tells local git to retrieve lastest meta-data info from the original (doesn't do any file transferring, just checks to see if any changes available)
-- git pull --> pulls the latest changes from the remote repo
-- git add -A —> Add all to staging area
-- git commit -m “comment” —> Commit
-- git push origin master —> Push changes to remote repository
-- git diff —> Show changes made to code
-- git reset —> Remove everything from staging area
-- git clone URL —> Clone remote repository into current directory
-- git pull origin master —> Get updates from repository
-- git checkout branchName —> Switch branch
-- git remote add origin https://github.com/user/repo.git
-  - Set a new remote
-- git remote -v
-  - Verify new remote
-  - > origin https://github.com/user/repo.git (fetch)
-  - > origin https://github.com/user/repo.git (push)
-- Check log of commits
-  - Git log —oneline
-- git branch -m main —> create a branch called main
-- git branch -m master main —> change name of local branch from master to main git push -u origin main
-- git branch –-show-current —> show current branch
-- git branch -D _branch name_ —> delete branch (need to get off branch before deleting)
-- rm -rf .git —> delete local repository (must be in current directory of local repo)
-- git config --global init.defaultBranch main —> use to make default branch name as main
-- git config —global alias._name of alias_ ‘! _command 1 && command 2_’ —> create an alias for command shortcuts, for example: git config --global alias.addcom '!git add -A && git commit -m'
+Photo by Tim Douglas :
+https://www.pexels.com/photo/cheerful-baristas-in-aprons-standing-near-coffee-house-6205762/
