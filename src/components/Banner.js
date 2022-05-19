@@ -1,7 +1,6 @@
 import React from 'react';
 import coffeeBarBanner from '../assets/coffee-bar-banner.jpg';
 
-// Need to resize the banner image's height so it doesn't take up as much room on the page.
 
 function Banner() {
   return (

@@ -2,7 +2,6 @@ import React from 'react';
 import About from './About';
 import Fade from 'react-reveal';
 import PageFooter from './PageFooter';
-// import NavContainer from './NavContainer';
 import Nav from './Navigation2';
 import Header from './Header2';
 import TextCard from './TextCard';

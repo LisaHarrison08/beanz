@@ -2,7 +2,6 @@ import React from 'react';
 import barista from '../assets/people2.jpg';
 import Fade from 'react-reveal';
 import { Col, Row } from 'react-bootstrap';
-// import Navigation from './Navigation2';
 
 const About = () => {
   return (
