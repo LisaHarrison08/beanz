@@ -3,37 +3,25 @@
 ## Project by: Lisa Harrison & Kurt Reynolds
 ![landing page](images/image1.png)
 
-## Update Notes
+## Beanz
 
-- 5/10/22: Kurt
+A website created for a local coffee shop utilising React, React-Reveal, Bootstrap & SCSS
 
-  - Updated main branch. Going forward all updates will be to dev branch.
-  - Main branch will be updated once the project is complete.
-  - Added BrowserRouter to App.js for navigation purposes
-  - Added Routes in the Main component and linked to components
-  - Added Navigation & Footer components into Home component
-  - Switched style to style.scss and copied style from previously used style to the scss file.
-  - Working on navigation-kurt branch
-  - Created reusable components: ImageCard & TextCard
-  - Added filler content to Home component
+Includes About Section:
+![about us](images/image2.png)
 
-  5/14/22: Kurt
+Features:
+![features](images/image3.png)
 
-- Added new branch: aboutPageAndMenuPage (forgot to put -kurt in the branch name)
-- Added Redux to the project
-- Created Redux store, actions, and reducers
-- Created product data for the menu page
-- Created reusable MenuCard component for the Menu page
-- Added products to the Menu page
-- Added some simple style to Menu page
+## Installation Options
 
-5/16/22: Kurt
+To install the project dependencies, execute the following:
+```jsx
+npm install
+or
+yarn install
+```
 
-- Created new branch: homepage-style-kurt
-- Made the Nav menu transparent. Used same color, but switched to rgba.
-- Updated TextCard content on the Home page.
-- Created AboutPage component to house the About component on a separate page.
-- Created MenuPage component to house the Menu component on a separate page.
 
 ### Credits
 
