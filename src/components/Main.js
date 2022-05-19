@@ -1,16 +1,20 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import Store from '../redux/store';
 import Home from './Home';
-import About from './About';
+import AboutPage from './AboutPage';
+import MenuPage from './MenuPage';
 
 function Main() {
   return (
-    <div>
+    <Provider store={Store}>
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="/about" element={<AboutPage />} />
+        <Route exact path="/menu" element={<MenuPage />} />
       </Routes>
-    </div>
+    </Provider>
   );
 }
 

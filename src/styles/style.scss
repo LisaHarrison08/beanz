@@ -1,37 +1,194 @@
-$colorOne: #8ecae6;
-$colorTwo: #219ebc;
-$colorThree: #023047;
-$colorFour: #ffb703;
-$colorFive: #fb8500;
+$lightCornFlowerBlue: #8ecae6;
+$blueGreen: #219ebc;
+$bannerBlueGreen: rgba(33, 158, 188, 0.7);
+$prussianBlue: #023047;
+$selectiveYellow: #ffb703;
+$tangerine: #fb8500;
+$opacityTangerine: rgba(251, 133, 0, 0.3);
+$blue-ncs: hsla(195, 83%, 38%, 0.3);
+$footer: #000;
+$text: white;
 
-/* About Section */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shizuru&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
 
-#about {
-  display: flex;
-  flex-direction: row;
-  background: #023047;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 100%;
-}
-
-#about .about-us {
-  margin-top: 40px;
-  margin-left: 20px;
-}
-
-/* Footer Section */
-.site-footer {
-  /* background-color: rgb(233, 223, 223); */
-  background-color: black;
+.primary-container {
   margin: 0;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
+  padding: 0;
+  // background-image: url('../assets/marble.jpg');
 
-.icon-link {
-  padding: 20px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  color: #ffb703;
+  .content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    font: 1.2em 'Zen Loop', cursive;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+
+    .card-title {
+      font: 1.8em 'Zen Loop', cursive;
+      letter-spacing: 0.1em;
+      font-weight: 900;
+    }
+    .img-col {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  /* Nav  */
+  .nav2 {
+    // background-color: $blueGreen;
+    background-color: $bannerBlueGreen;
+    letter-spacing: 2px;
+  }
+  .nav-link {
+    padding-top: 20px;
+    color: $text;
+  }
+  .nav-link:hover {
+    color: $selectiveYellow;
+  }
+  .nav-logo {
+    margin-left: 20px;
+  }
+
+  /* Banner Option 2 */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 2;
+    height: 300px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  header {
+    text-align: center;
+    overflow: hidden;
+
+    .banner-text h1 {
+      position: absolute;
+      top: 10%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      font: 6em 'Zen Loop', cursive;
+      font-weight: 600;
+      color: $text;
+      letter-spacing: 0.1em;
+      text-transform: none;
+      z-index: 3;
+    }
+    img {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 300px;
+      margin: 0 !important;
+      padding: 0 !important;
+      object-fit: cover;
+      // z-index:1;
+    }
+  }
+  /* Page Section */
+
+  .text-card {
+    // background-color: $opacityTangerine;
+    border: 3px $opacityTangerine solid;
+  }
+
+  .menu-card {
+    padding: 1rem;
+  }
+
+  .menu-card-body {
+    border: none;
+    border-bottom: solid 1px $opacityTangerine;
+  }
+
+  .card-title,
+  h5 {
+    font-family: 'Zen Loop', cursive;
+  }
+
+  /* About Section */
+  .about-section {
+    background-color: $prussianBlue;
+
+    .about-image {
+      margin-top: 40px;
+      margin-left: 100px;
+      padding: 20px;
+      height: 90%;
+      width: auto;
+    }
+    .about-text {
+      font-family: 'Zen Loop', cursive;
+      color: $text;
+      text-align: center;
+      padding-right: 100px;
+    }
+    h2 {
+      color: $selectiveYellow;
+      font-size: 2.4em;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      letter-spacing: 0.1em;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 20px;
+      line-height: 2;
+      letter-spacing: 0.2em;
+    }
+  }
+
+  /* Footer Section */
+  .site-footer {
+    background-color: $selectiveYellow;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    h5,
+    p {
+      color: $prussianBlue;
+    }
+
+    .icon-link {
+      padding: 10px;
+      padding-bottom: 20px;
+      color: $prussianBlue;
+    }
+  }
+
+  .secondary-footer {
+    background-color: $prussianBlue;
+    padding-top: 20px;
+    margin: 0;
+    color: $text;
+  }
+
+  .project-link {
+    color: $text;
+    padding-right: 20px;
+  }
+}
+// END PRIMARY CONTAINER
+
+// MENU PAGE
+.menu-container {
+  display: flex;
+  .menu-row {
+    position: relative;
+    margin-top: 6rem;
+  }
 }
