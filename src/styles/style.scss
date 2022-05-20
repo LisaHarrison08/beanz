@@ -74,7 +74,9 @@ $text: white;
   header {
     text-align: center;
     overflow: hidden;
-
+    margin:0;
+    padding:0;
+    
     .banner-text h1 {
       position: absolute;
       top: 10%;
@@ -124,9 +126,8 @@ $text: white;
     background-color: $prussianBlue;
 
     .about-image {
-      margin-top: 40px;
-      margin-left: 100px;
-      padding: 20px;
+      margin: 40px;
+      padding: 40px;
       height: 90%;
       width: auto;
     }
@@ -134,7 +135,8 @@ $text: white;
       font-family: 'Zen Loop', cursive;
       color: $text;
       text-align: center;
-      padding-right: 100px;
+      margin-top: 40px;
+      padding-right: 50px;
     }
     h2 {
       color: $selectiveYellow;
@@ -144,7 +146,7 @@ $text: white;
       letter-spacing: 0.1em;
     }
     p {
-      font-size: 1.2em;
+      font-size: 1.3em;
       margin: 20px;
       line-height: 2;
       letter-spacing: 0.2em;

@@ -14,7 +14,7 @@ const Header = () => {
             className="banner-img custom-banner"
             alt="banner"
           />
-          <div className="banner-text">
+          <div className="banner-text text-center">
             <Fade bottom>
               <h1>BEANZ</h1>
             </Fade>
